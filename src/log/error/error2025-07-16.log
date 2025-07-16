@@ -1,0 +1,3 @@
+{"level":"error","message":"se produjo un error en la funcion de la autenticacion TypeError: Cannot read properties of null (reading 'password')"}
+{"level":"error","message":"se produjo un error en la funcion de la autenticacion TypeError: Cannot read properties of null (reading 'password')"}
+{"level":"error","message":"se produjo un error en la funcion de la autenticacion ReferenceError: sequelize is not defined"}

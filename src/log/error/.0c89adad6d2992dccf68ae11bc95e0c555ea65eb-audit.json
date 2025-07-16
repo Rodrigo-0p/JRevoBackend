@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 5
+    },
+    "auditLog": "C:\\jrevo\\backend\\src\\log\\error\\.0c89adad6d2992dccf68ae11bc95e0c555ea65eb-audit.json",
+    "files": [
+        {
+            "date": 1752705397212,
+            "name": "C:\\jrevo\\backend\\src\\log\\error\\error2025-07-16.log",
+            "hash": "6256f6dc2bf80f8e0d8c2b46a69b18903edb2e5f2aa3cce0dcfa9196536b9a88"
+        }
+    ],
+    "hashType": "sha256"
+}
