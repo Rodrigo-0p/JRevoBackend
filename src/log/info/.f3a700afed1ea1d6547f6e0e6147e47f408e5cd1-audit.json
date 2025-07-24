@@ -6,9 +6,19 @@
     "auditLog": "C:\\jrevo\\backend\\src\\log\\info\\.f3a700afed1ea1d6547f6e0e6147e47f408e5cd1-audit.json",
     "files": [
         {
-            "date": 1752705397207,
-            "name": "C:\\jrevo\\backend\\src\\log\\info\\info-2025-07-16.log",
-            "hash": "5a14168641cf7ffd72ea06da2843cc53a53b79904e2ae925af57befe7dd87085"
+            "date": 1753025849334,
+            "name": "C:\\jrevo\\backend\\src\\log\\info\\info-2025-07-20.log",
+            "hash": "76604a067b3b6f65888b3f3c40f79aae1f50ef4c426875b73fee199fd21d47b2"
+        },
+        {
+            "date": 1753224699366,
+            "name": "C:\\jrevo\\backend\\src\\log\\info\\info-2025-07-22.log",
+            "hash": "f05bbcdd60d45db7628ff17df4fdf3c42b6580bf1cf8eeb261b59d5905865114"
+        },
+        {
+            "date": 1753396727821,
+            "name": "C:\\jrevo\\backend\\src\\log\\info\\info-2025-07-24.log",
+            "hash": "77d5fff46c98a6e20598bcf31e1b08b497f72781b86c562afbd6d68a38f3911e"
         }
     ],
     "hashType": "sha256"

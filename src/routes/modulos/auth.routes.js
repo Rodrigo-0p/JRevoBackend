@@ -7,4 +7,4 @@ const base_ruta = '/public/login';
 module.exports = ()=>{
   router.post(base_ruta, authController.login);
   return router;
-}
+} 

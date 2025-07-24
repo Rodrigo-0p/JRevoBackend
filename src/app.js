@@ -21,7 +21,7 @@ app.use((req, res, next)=> {
   // Allow Methods
   res.header("Access-Control-Allow-Methods", "GET, POST, PATCH, PUT, DELETE, OPTIONS");
   // Allow Headers
-  res.header("Access-Control-Allow-Headers", "Origin, Accept, Content-Type, Authorization");
+  res.header("Access-Control-Allow-Headers", "Origin, Accept, Content-Type, Authorization, x-access-token");
   // Allow Headers
   res.header('Cross-Origin-Resource-Policy', 'same-site');
   

@@ -5,9 +5,20 @@ exports.verifyToken = (req, res, next) => {
       return res.status(403).json({ message: 'No se proporcionó token' });
     }
     try {
-      const decoded = jwt.verify(token, process.env.JWT_SECRET);
-      req.usuarioId = decoded.cod_usuario;
-      next();
+      // src/middlewares/authJwt.middlewares.js
+      jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
+        if (err) {
+          return res
+            .status(err.name === 'TokenExpiredError' ? 401 : 403)
+            .json({
+              message: err.name === 'TokenExpiredError'
+                ? 'Token expirado'
+                : 'Token inválido'
+            });
+        }
+        req.user = decoded;
+        next();
+      });
     } catch (error) {
       return res.status(401).json({ message: 'Token inválido' });
     }

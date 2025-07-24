@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "seed": "node src/seeders/async.seeders.js"
+    "adm": "node src/seeders/async.seeders.js",
+    "table": "node src/seeders/createTable"
   },
   "keywords": [],
   "author": "",
